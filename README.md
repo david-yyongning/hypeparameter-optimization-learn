@@ -1,4 +1,17 @@
-﻿![PythonVersion](https://img.shields.io/badge/python-3.6%20|3.7%20|%203.8%20|%203.9-success)
+## Clone Repository from https://github.com/solegalli/hyperparameter-optimization.git
+```
+## 1. Clone tahu
+git clone https://github.com/solegalli/hyperparameter-optimization.git
+## 2. Rename orignal remote as 'upstream' that free 'origin' for this respository remote URL
+git remote rename origin upstream 
+## 3. create repository at github account, eg, https://github.com/david-yyongning/hyperparameter-optimization-learn.git
+## 4. Add `origin` point to new Github respository
+git remote add origin https://github.com/david-yyongning/hyperparameter-optimization-learn.git
+## 5. push only master to remote repository named "origin", '-u' set local master upstream branch to origin/master 
+git push -u origin master
+```
+ 
+ ![PythonVersion](https://img.shields.io/badge/python-3.6%20|3.7%20|%203.8%20|%203.9-success)
 [![License https://github.com/solegalli/hyperparameter-optimization/blob/master/LICENSE](https://img.shields.io/badge/license-BSD-success.svg)](https://github.com/solegalli/hyperparameter-optimization/blob/master/LICENSE)
 [![Sponsorship https://www.trainindata.com/](https://img.shields.io/badge/Powered%20By-TrainInData-orange.svg)](https://www.trainindata.com/)
 
