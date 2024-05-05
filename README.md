@@ -10,6 +10,12 @@ git remote add origin https://github.com/david-yyongning/hyperparameter-optimiza
 ## 5. push only master to remote repository named "origin", '-u' set local master upstream branch to origin/master 
 git push -u origin master
 ```
+
+## Package Installation
+```sh
+pip install h5py # conda install h5py not working
+pip install torch botorch gpytorch # for TrRBO algorithm
+```
  
  ![PythonVersion](https://img.shields.io/badge/python-3.6%20|3.7%20|%203.8%20|%203.9-success)
 [![License https://github.com/solegalli/hyperparameter-optimization/blob/master/LICENSE](https://img.shields.io/badge/license-BSD-success.svg)](https://github.com/solegalli/hyperparameter-optimization/blob/master/LICENSE)
