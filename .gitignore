@@ -10,3 +10,5 @@
 
 # folders
 
+.virtual_documents/
+*.db

@@ -211,6 +211,7 @@ def generate_batch(
     return X_next
 
 
+
 # ## Optimization loop
 # This simple loop runs one instance of TuRBO-1 with Thompson sampling until convergence.
 # 
@@ -354,7 +355,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import rc
 
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 names = ["TuRBO-1", "EI", "Sobol"]

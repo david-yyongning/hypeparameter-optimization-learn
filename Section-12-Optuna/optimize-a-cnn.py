@@ -5,8 +5,8 @@ import os, inspect
 os.environ['PYTHONHASHSEED'] = '0' # Disable hash randomization
 
 # Set current working to the parent directory of this file
-currentdir = os.get
-parentdir = os.path.dirname(currentdir)
+#currentdir = os.get
+#parentdir = os.path.dirname(currentdir)
 
 import numpy as np
 import tensorflow as tf
@@ -239,7 +239,7 @@ study = optuna.create_study(
     load_if_exists=True,
 )
 
-study.optimize(objective, n_trials=2)
+study.optimize(objective, n_trials=5)
 
 # 4. Analyze the results
 print(f"Best params: {study.best_params}")
